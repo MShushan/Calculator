@@ -1,12 +1,12 @@
-
+import Calculator from './Calculator/Calculator';
 import React from 'react';
 import  ReactDOM from 'react-dom/client';
-import Calculator from './components/Calculator';
 import './index.css'
-
 
  const App = () =>{
   return(
+
+    
     <Calculator/>
   )
  }
