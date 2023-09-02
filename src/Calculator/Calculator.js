@@ -8,7 +8,7 @@ const Calculator = () =>{
         <button type="button" className='item8'>AC</button>
         <button type="button">/</button>
         <button type="button">*</button>
-        <button type="button">7</button>
+        <button type="button" className='item11'>7</button>
         <button type="button">8</button>
         <button type="button">9</button>
         <button type="button">+</button>
@@ -19,9 +19,9 @@ const Calculator = () =>{
         <button type="button">1</button>
         <button type="button">2</button>
         <button type="button">3</button>
-        <button type="button" className="item22" >=</button>
+        <button type="button" className="item22" >.</button>
         <button type="button" className="item23">0</button>
-        <button type="button" className="item24">.</button>
+        <button type="button" className="item24">=</button>
      </div>
 
 </div>

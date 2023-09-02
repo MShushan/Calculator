@@ -24,6 +24,7 @@
  .calculator-buttons{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-gap: 0.1px;
     background-color: #1d517b;
     padding: 0px;
@@ -44,17 +45,14 @@
 
   }
 
-  .item22{
-    grid-area: 4 / 4 / span 2 / span 1;
-    color: rgb(78, 185, 78);
-  }
+  
   .item23{
     grid-area: 5 / 1 / span 1 / span 2;
   }
   .item24{
     grid-area: 5 / 3 / span 1 / span 2;
   }
-
+  
    .item7{
     color: rgb(78, 185, 78);
    }
